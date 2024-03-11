@@ -3,6 +3,7 @@ nav{
     height: 50px;
     background-color: rgb(80, 80, 250);
     align-items: center;
+    width: 100%;
 }
 nav .logo{
     width: 30%;
@@ -51,8 +52,7 @@ nav .menuDiv .menuIcon:active{
     opacity: 1;
 }
 nav .menu{
-    display: none;
-    
+    display: none;  
 }
 @media screen and (max-width:500px) {
     nav ul{
@@ -66,7 +66,7 @@ nav .menu{
     }
     nav .menu{
         display: flex;
-        position: absolute;
+        position: fixed;
         height: 100vh;
         right: 0;
         top: 0;
