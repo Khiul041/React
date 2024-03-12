@@ -1,0 +1,12 @@
+main{
+    min-height: calc(100vh - 50px);
+    padding: 1%;
+}
+.darkMode{
+    background-color: #242424;
+    color: white;
+}
+.lightMode{
+    background-color: white;
+    color: #242424;
+}
